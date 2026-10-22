@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meu Bolso – Saiba quanto você pode gastar hoje</title>
+<meta name="description" content="Acompanhe seus gastos em tempo real, veja seu orçamento diário e receba alertas antes de estourar o mês.">
+<meta property="og:title" content="Meu Bolso – Controle financeiro simples">
+<meta property="og:description" content="Saiba quanto você pode gastar hoje sem estourar o mês.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#"><i></i>Meu Bolso</a>
+  <a class="btn sm" href="#comecar">Começar grátis</a>
+</div></header>
+
+<main>
+<div class="wrap hero">
+  <div>
+    <h1>Saiba quanto você pode gastar hoje sem estourar o mês.</h1>
+    <p class="lead">O Meu Bolso acompanha seus gastos em tempo real, calcula seu orçamento diário e avisa antes de você passar do limite.</p>
+    <a class="btn" href="#comecar">Quero controlar meu dinheiro</a>
+    <div class="proof">Grátis para começar. Sem cartão de crédito.</div>
+  </div>
+  <div class="demo" aria-live="polite">
+    <h2>Teste agora com os seus números</h2>
+    <div class="field"><label for="b">Orçamento do mês (R$)</label><input id="b" type="number" min="0" value="3000" inputmode="decimal"></div>
+    <div class="field"><label for="s">Já gastei (R$)</label><input id="s" type="number" min="0" value="2100" inputmode="decimal"></div>
+    <div class="big"><span id="d">–</span><small id="dl"></small></div>
+    <div class="bar" id="bar"><span id="fill"></span></div>
+    <div class="status" id="st"></div>
+  </div>
+</div>
+
+<section class="pain"><div class="wrap">
+  <h2>O dinheiro não some de uma vez. Ele escorre aos poucos.</h2>
+  <p class="sub">Um café aqui, um delivery ali. Quando você olha a fatura, o orçamento do mês já acabou. O problema não é falta de vontade, é falta de visão clara durante o mês.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Tudo que você precisa para fechar o mês no azul</h2>
+  <div class="grid">
+    <div><h3>Gastos em tempo real</h3><p>Registre uma despesa em segundos e veja na hora quanto sobrou do mês.</p></div>
+    <div><h3>Orçamento diário</h3><p>O app divide o que resta pelos dias que faltam e mostra o valor seguro para hoje.</p></div>
+    <div><h3>Alertas de excesso</h3><p>Receba um aviso quando seu ritmo de gastos passar do planejado, a tempo de corrigir.</p></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <h2>Veja o app por dentro</h2>
+  <p class="sub">Três telas simples: o valor do dia, a lista de gastos e o aviso na hora certa.</p>
+  <div class="screens">
+    <div class="fig"><div class="phone"><span class="t">Hoje você pode gastar</span><span class="n">R$ 81,82</span><div class="mini"><b style="width:70%"></b></div><span class="t">Restam R$ 900 em 11 dias</span><div class="row"><span>Almoço</span><b>R$ 32,00</b></div><div class="row"><span>Transporte</span><b>R$ 12,50</b></div></div><p class="cap">Orçamento diário</p></div>
+    <div class="fig"><div class="phone"><span class="t">Gastos de hoje</span><div class="row"><span>Mercado</span><b>R$ 148,90</b></div><div class="row"><span>Farmácia</span><b>R$ 37,20</b></div><div class="row"><span>Café</span><b>R$ 9,00</b></div><div class="row"><span>Lanche</span><b>R$ 24,00</b></div><div class="row"><b>Total do dia</b><b>R$ 219,10</b></div></div><p class="cap">Registro em segundos</p></div>
+    <div class="fig"><div class="phone"><span class="t">Alerta do Meu Bolso</span><div class="notif">Você está R$ 120 acima do ritmo do mês. Reduza para R$ 60 por dia e volte ao orçamento.</div><span class="t">Ritmo do mês</span><div class="mini"><b style="width:88%;background:var(--warn)"></b></div></div><p class="cap">Aviso antes de estourar</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Comece em menos de 2 minutos</h2>
+  <ol class="steps">
+    <li><h3>Defina seu orçamento</h3><p>Informe quanto você quer gastar no mês.</p></li>
+    <li><h3>Registre seus gastos</h3><p>Anote cada despesa. É rápido e leva poucos toques.</p></li>
+    <li><h3>Siga o valor do dia</h3><p>Gaste dentro do limite diário e mantenha o orçamento do mês.</p></li>
+  </ol>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <h2>Escolha o plano ideal para você</h2>
+  <p class="sub">Comece de graça. Mude para o Premium quando quiser mais detalhes. Valores de exemplo, ajuste ao seu modelo.</p>
+  <div class="plans">
+    <div class="plan"><h3>Grátis</h3><div class="price">R$ 0<small> /mês</small></div>
+      <ul><li>Orçamento mensal</li><li>Registro de gastos em tempo real</li><li>Orçamento diário</li><li>Alertas de gastos excessivos</li></ul>
+      <a class="btn ghost" href="#comecar">Começar grátis</a></div>
+    <div class="plan hot"><span class="tag">Mais escolhido</span><h3>Premium</h3><div class="price">R$ 9,90<small> /mês</small></div>
+      <ul><li>Tudo do plano Grátis</li><li>Categorias de gastos</li><li>Relatórios mensais</li><li>Metas de economia</li><li>Exportar para planilha</li></ul>
+      <a class="btn" href="#comecar">Testar o Premium</a></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Quem usa, passa a saber para onde o dinheiro vai</h2>
+  <div class="quotes">
+    <blockquote><p>“Antes eu só descobria o estouro no fim do mês. Agora vejo o limite do dia e ajusto na hora.”</p><cite>Depoimento de exemplo – Mariana, professora</cite></blockquote>
+    <blockquote><p>“O alerta me avisou no dia 15 que eu estava acima do ritmo. Segurei os gastos e fechei no azul.”</p><cite>Depoimento de exemplo – Rafael, analista</cite></blockquote>
+    <blockquote><p>“Simples de usar. Em dois minutos eu já tinha meu orçamento diário.”</p><cite>Depoimento de exemplo – Camila, autônoma</cite></blockquote>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2 style="margin-bottom:20px">Perguntas frequentes</h2>
+  <details><summary>O Meu Bolso é gratuito?</summary><p>Sim. O plano Grátis tem tudo para controlar o mês, sem cartão de crédito. O Premium é opcional.</p></details>
+  <details><summary>Preciso conectar minha conta do banco?</summary><p>Não. Você registra seus gastos manualmente, então tem controle total sobre o que compartilha.</p></details>
+  <details><summary>Como o orçamento diário é calculado?</summary><p>Pegamos o que ainda resta do seu orçamento e dividimos pelos dias que faltam no mês.</p></details>
+  <details><summary>Quando recebo os alertas?</summary><p>Quando seus gastos passam do ritmo planejado para o mês, para você agir antes de estourar.</p></details>
+  <details><summary>Posso cancelar o Premium quando quiser?</summary><p>Sim. Você cancela a qualquer momento e volta para o plano Grátis.</p></details>
+</div></section>
+
+<section id="comecar" style="padding-top:0"><div class="wrap">
+  <div class="cta">
+    <h2>Chegue ao fim do mês com dinheiro no bolso</h2>
+    <p class="sub">Deixe seu e-mail e receba o acesso ao Meu Bolso.</p>
+    <form id="f"><input type="email" required placeholder="seu@email.com" aria-label="Seu e-mail"><button class="btn" type="submit">Quero começar grátis</button></form>
+    <div id="msg" class="msg" role="status"></div>
+  </div>
+</div></section>
+</main>
+
+<footer>© <span id="ano">2026</span> Meu Bolso. Todos os direitos reservados.</footer>
+<script src="script.js"></script>
+</body>
+</html>
